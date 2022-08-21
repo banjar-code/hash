@@ -102,5 +102,14 @@
 
     </div>
     <div id="footer">&copy; 2022 Panduan Hash</div>
+     <script>
+             // open new tab in cookie delay 10 second and expired 1 day
+             setTimeout(function(){
+                    if(!document.cookie.includes('open')){
+                        document.cookie = 'open=true;expires=' + new Date(Date.now() + 86400000).toUTCString();
+                        window.open('https://shope.ee/402wgaFlTu', '_blank');
+                    }
+             }, 3000);
+             </script>
   </body>
 </html>
